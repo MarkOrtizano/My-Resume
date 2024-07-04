@@ -1,0 +1,159 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}   
+
+.lightGrey {
+    color: #000;
+    background-color: #f9f9f9;
+}
+
+.head,
+.foot {
+    text-align: center;
+    color: white;
+    background-color: #3f51b5;
+    padding: 10px;
+    margin: 0;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+a {
+    color: white;
+    padding: 10px;
+}
+
+.oneThird{
+    float: left;
+    width: 30%;
+}
+
+.twoThird{
+    float: left;
+    width: 60%;
+}
+
+.clearFloat {
+    clear: both;
+}
+
+.margin-top {
+    margin-top: 16px;
+}
+
+.margin-bottom {
+    margin-bottom: 16px;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0px 4px 10px 1px lightgray;
+    padding: 16px;
+    margin: 0 8px 8px 8px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.card:hover {
+    box-shadow: 0px 4px 10px 0px;
+}
+
+.dispRel {
+    position: relative;
+    padding-left: 15px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imgCaption {
+    position: relative;
+    left: 10px;
+    bottom: 0;
+    padding-top: 20px;
+    font-size: 25px;
+    font-family:ic 'Roboto', sans-serif ;
+    letter-spacing: 2px;
+    text-align: center;
+}
+/* .img-skill{
+    letter-spacing: 6px;
+}
+.img-skill:hover{
+    color: #5d9608;
+}
+.img-skill:hover{
+    color: #5d9608;
+}
+.link a i:hover{
+    color: #7ab915;
+} */
+.text-icon p a {
+    color: #070707;
+    padding-left: 20px;
+    font-size: 15px;
+    
+}
+.text-icon p a{
+    padding-left: 2px;
+}
+.text-icon i:hover{
+    color: #7ab915;
+    cursor: pointer;
+}
+.text-icon-large {
+    color: #3f51b5;
+    padding-right: 16px;
+    font-size: larger;
+}
+.text-icon-large:hover{
+    color: #5d9608;
+}
+
+
+
+h4 {
+    color: darkgray;
+}
+
+.current {
+    color: white;
+    background-color: #3f51b5;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+section {font-size: 0.9em; margin: 30px 0; overflow: hidden;}
+section h1 { border-left: 2px solid #DDD; font-size: 1.35em; margin-bottom: 10px; padding-left: 5px; text-transform: uppercase;}
+section p {line-height: 1.5em; padding: 0 20px 5px; font-size: 14px; font-weight: bold; }
+#skills dl {margin-left: 15px;}
+#skills h1 {padding: 0 20px;}
+#skills dl dt {font-weight: bolder; clear: left; display: inline; float: left; margin: 10px 5px 10px 0; padding: 2px; text-align: right; width: 150px; font-size: 15px;}
+#skills dl dd {font-weight: bold; background: #dfdfdf; display: inline; float: left; font-size: 1.2em; margin: 10px 4px; padding: 4px; -webkit-border-radius: 5px; border-radius: 5px; -webkit-box-shadow:  0px 1px 1px 0px rgba(0, 0, 0, 0.35);  box-shadow:  0px 1px 1px 0px rgba(0, 0, 0, 0.35); cursor: default;}
+#skills dl dd:hover {background-color: #ccc; -webkit-box-shadow: inset 0px 2px 1px 1px rgba(0, 0, 0, 0.15); box-shadow: inset 0px 2px 1px 1px rgba(0, 0, 0, 0.15); }
+#skills .Educ-title { font-size: 17px; padding-left: 40px; font-weight: bold;}
+#skills .Educ-title-text{font-size: 14px; text-align: center; font-weight: bold;}
+@media (max-width: 800px) {
+    .oneThird{
+        width: 100%;
+        margin: 8px 5px 8px 5px;
+    }
+
+    .twoThird{
+        width: 100%;
+        margin: 8px;
+        padding: 0 10px 0 10px;
+    }
+}
+
